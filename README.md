@@ -19,4 +19,9 @@ Three Stages of Git
 
 Use git status to check on the files and their placement within the Git stages
 
-Here's a change
+# Adding multiple files with same file type
+    - git add *.filetype where * is a wild card and filetype is something like "html" or    "css"
+
+# To create a hidden file, add a . before the file name ".hidden.txt"
+
+# To add all files to staging area, use git add -A
