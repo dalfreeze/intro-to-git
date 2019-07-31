@@ -1,13 +1,22 @@
+git init to initialize Git in terminal
+
 Three Stages of Git
 
 # Working Directory
-    Everything that is not saved lives here
-    Area where all of our files and directories and changes ar living all the time
+    -Everything that is not saved lives here
+    -Area where all of our files and directories and changes ar living all the time
 
 # Staging Area
-    Stage fixes into staging area in order to get ready to commit them
-    Files and directories that we explicitly add to the staging area
+    -Stage fixes into staging area in order to get ready to commit them
+    -Files and directories that we explicitly add to the staging area
+    -Use git add <filename> to get file from working directory to staging area
 
 # .git Repository
-    Commit to this to save it
-    Where all our snapshots are stored
+    -Commit to this to save it
+    -here all our snapshots are stored
+    -git commit -m "MESSAGE HERE" to commit something to the .git repository and add a   message
+
+
+Use git status to check on the files and their placement within the Git stages
+
+Here's a change
