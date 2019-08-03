@@ -1,6 +1,8 @@
 git init to initialize Git in terminal
 
-Three Stages of Git
+=======================
+__Three Stages of Git__
+=======================
 
 # Working Directory
     -Everything that is not saved lives here
@@ -25,3 +27,24 @@ Use git status to check on the files and their placement within the Git stages
 # To create a hidden file, add a . before the file name ".hidden.txt"
 
 # To add all files to staging area, use git add -A
+
+# Add files that you want git to ignore to .gitignore
+
+================
+__Git Branches__
+================
+
+          /--0-------0----0 > can mess around with code without affecting master branch
+         /               /  > you can merge the two if you like the second branch
+0-------0----0----0-----0   > Master branch
+
+# List all branches
+    - git branch
+
+# Adding a branch
+
+# Changing branches
+
+# Merging a branch
+
+# Removing a branch
