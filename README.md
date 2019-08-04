@@ -42,9 +42,27 @@ __Git Branches__
     - git branch
 
 # Adding a branch
+    - git checkout -b branch_name
 
 # Changing branches
+    - git checkout branch_name
 
 # Merging a branch
+    - checkout into master branch
+    - git merge branch_name (merges branch_name into current branch)
 
 # Removing a branch
+    - git branch -d branch_name
+
+
+================
+__GitHub__
+================
+
+# Connecting repository to GitHub repository
+    - git remote add origin <url> (get the URL from the repository on GitHub)
+    - to check if it's connected, use:
+        - git remove -v
+    - to push code to GitHub repository
+        - git push -u origin master
+        - then check GitHub to make sure the code/files were uploaded
